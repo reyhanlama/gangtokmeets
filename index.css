@@ -1,0 +1,116 @@
+body {
+  margin: 50px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  box-sizing: border-box;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  text-decoration: underline;
+  font-size: 24px;
+}
+li {
+  list-style: none;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.button {
+  font-size: 18px;
+  padding: 15px 20px 15px 20px;
+  background-color: black;
+  font-weight: 700;
+  color: white;
+  border-radius: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+  text-align: center;
+}
+.hero-heading {
+  font-size: 64px;
+  font-weight: 900;
+  max-width: 600px;
+  padding: 0;
+  margin: 0;
+}
+.hero-subheading {
+  margin: 35px 0 0 0;
+  padding: 0;
+}
+.buttons {
+  margin-top: 30px;
+}
+.button.find {
+  background: none;
+  color: black;
+  border: 2px solid black;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  height: 350px;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  background-color: blanchedalmond;
+  margin-bottom: 30px;
+}
+.card img {
+  width: 100%;
+}
+
+.card-info {
+  padding: 20px;
+}
+.card-info p {
+  opacity: 70%;
+  font-size: 18px;
+  margin-top: 10px;
+}
+h4,
+p {
+  margin: 0;
+  padding: 0;
+}
+.title {
+  font-size: 48px;
+  margin: 0;
+  padding: 0;
+}
+.subtitle {
+  font-size: 18px;
+  padding: 0;
+}
+h4 {
+  font-size: 18px;
+}
+section {
+  margin: 50px;
+}
+.see-more {
+  border: 2px solid black;
+  padding: 10px 25px 10px 25px;
+  font-size: 18px;
+  background: none;
+  margin-top: 20px;
+}
