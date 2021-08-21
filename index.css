@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 50px;
   font-family: "Raleway", sans-serif;
@@ -6,7 +9,7 @@ body {
 }
 nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .nav-menu {
@@ -17,8 +20,9 @@ nav {
   text-decoration: underline;
   font-size: 24px;
 }
-li {
-  list-style: none;
+a {
+  text-decoration: none;
+  color: black;
   margin-right: 40px;
   margin-left: 40px;
 }
@@ -38,7 +42,7 @@ li {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 70px;
   text-align: center;
 }
 .hero-heading {
